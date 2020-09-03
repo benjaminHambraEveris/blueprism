@@ -1,0 +1,111 @@
+﻿<process name="proceso 1" version="1.0" bpversion="6.8.0.23415" narrative="" byrefcollection="true" preferredid="d9e13f60-879b-4efc-af6b-9768c6d59817">
+  <view>
+    <camerax>0</camerax>
+    <cameray>-89</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="da58f197-5567-44e2-8ac8-5d85f072de7e" type="Normal" published="False">
+    <name>nueva page</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="da2e8db5-dcee-46e2-ad37-198b663de437" name="Start" type="Start">
+    <display x="15" y="-225" />
+    <onsuccess>9de19c1d-cd0d-43ee-9075-3b75f3ac5f6e</onsuccess>
+  </stage>
+  <stage stageid="1f0af8d9-0791-43ba-92ec-c931e9f15ce0" name="End" type="End">
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="f20da5bc-a5d9-44ea-a123-f784ff26c054" name="Stage1" type="ProcessInfo">
+    <display x="-240" y="-270" w="150" h="90" />
+  </stage>
+  <stage stageid="cca642bd-9281-4524-9f46-3352be649628" name="nueva page" type="SubSheetInfo">
+    <subsheetid>da58f197-5567-44e2-8ac8-5d85f072de7e</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="d4c41c87-77df-40ac-b032-8a71c012e7a8" name="Start" type="Start">
+    <subsheetid>da58f197-5567-44e2-8ac8-5d85f072de7e</subsheetid>
+    <display x="15" y="-105" />
+  </stage>
+  <stage stageid="73036ec9-916f-4458-bd15-e6fbbcfd9d0f" name="End" type="End">
+    <subsheetid>da58f197-5567-44e2-8ac8-5d85f072de7e</subsheetid>
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="9de19c1d-cd0d-43ee-9075-3b75f3ac5f6e" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-45" />
+    <onsuccess>f02cd6df-8f78-4ad5-b26a-8a82da246ff0</onsuccess>
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="f02cd6df-8f78-4ad5-b26a-8a82da246ff0" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="0" />
+    <onsuccess>1f0af8d9-0791-43ba-92ec-c931e9f15ce0</onsuccess>
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="91514cd1-d7f4-4bee-920c-0685f796d258" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="45" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="7bf27cf4-52f8-4bcd-8407-467ebb0281c3" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="105" y="-30" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="8d9cb5e4-e4da-4c83-b943-578805a7bbcb" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="105" y="15" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="7a4486b6-bda2-452f-a6d2-c06a097af5ef" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="-105" y="-75" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="c6873896-dda3-4f4f-b32d-decf6a143e47" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="-60" y="45" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="032ce617-6109-4eac-be78-5c77a797653f" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="-210" y="-150" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="3890e2fc-e2ee-4835-96c7-d95f22129eca" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="60" y="-195" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="41f28070-180a-41c8-8a29-bd42ea4a291c" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="120" y="-150" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="1348b7e8-ca9e-437a-8192-9bbbab0f2dfe" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="-210" y="-30" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="31fae9f1-ce8b-495d-931c-2c09a4b7ffd5" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="-150" y="45" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="bdfc1231-937b-46ff-8c8b-5fa130b73276" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="120" y="-60" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+  <stage stageid="c19d1c59-6f99-4b33-a982-e3e3da2f0d9c" name="nueva page" type="SubSheet">
+    <loginhibit onsuccess="true" />
+    <display x="-90" y="-150" />
+    <processid>da58f197-5567-44e2-8ac8-5d85f072de7e</processid>
+  </stage>
+</process>
